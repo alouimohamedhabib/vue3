@@ -1,0 +1,14 @@
+- [x] .env file
+- [ ] api composable
+- [ ] create product detals page
+- [ ] create listing page
+- [ ]
+- [ ] Mercury
+- [x] Venus
+- [x] Earth (Orbit/Moon)
+- [x] Mars
+- [ ] Jupiter
+- [ ] Saturn
+- [ ] Uranus
+- [ ] Neptune
+- [ ] Comet Haley
