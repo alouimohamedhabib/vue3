@@ -23,7 +23,7 @@ import { type ProductObject } from '../../types'
 import useFetch from '@/composables/useFetch'
 import { ref } from 'vue'
 
-const product =  ref();
+const product = ref()
 const cartStore = useCartStore()
 const apiUrl = `${import.meta.env.VITE_API_URL}/products/1`
 product.value = await useFetch<ProductObject>(apiUrl)

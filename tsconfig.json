@@ -2,6 +2,8 @@
   "compilerOptions": {
     // "verbatimModuleSyntax": true,
     // "ignoreDeprecations": "5.0"
+    "target": "esnext",
+    "module": "esnext"
   },
   "files": [],
   "references": [

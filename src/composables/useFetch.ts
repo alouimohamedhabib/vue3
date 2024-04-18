@@ -1,5 +1,6 @@
-const useFetch = async <T>(url: string): Promise<T | undefined> => {
+const useFetch = async <T = any>(url: string): Promise<T | undefined> => {
   try {
+    console.log(url)
     const response = await fetch(url)
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`)

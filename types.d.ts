@@ -13,4 +13,12 @@ interface Rating {
   count: number
 }
 
-export { ProductObject, Rating }
+type CreateQuizOutputCustom = {
+  question: string
+  options: quizItemObject[]
+}
+type quizItemObject = {
+  text: string
+  value: number
+}
+export { ProductObject, Rating, CreateQuizOutputCustom, quizItemObject }
