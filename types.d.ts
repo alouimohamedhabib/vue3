@@ -21,4 +21,11 @@ type quizItemObject = {
   text: string
   value: number
 }
-export { ProductObject, Rating, CreateQuizOutputCustom, quizItemObject }
+
+interface TaskObject {
+  id: number
+  todo: string
+  completed: boolean
+  userId: number
+}
+export { ProductObject, Rating, CreateQuizOutputCustom, quizItemObject, TaskObject }
